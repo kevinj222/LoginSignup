@@ -1,8 +1,8 @@
-package com.screenspot.authenticationservice.config;
+package com.Tracker.authenticationservice.config;
 
 
-import com.screenspot.authenticationservice.service.JwtService;
-import com.screenspot.authenticationservice.util.JwtUtil;
+import com.Tracker.authenticationservice.service.JwtService;
+import com.Tracker.authenticationservice.util.JwtUtil;
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.util;
+package com.Tracker.authenticationservice.util;
 
 
 import io.jsonwebtoken.Claims;

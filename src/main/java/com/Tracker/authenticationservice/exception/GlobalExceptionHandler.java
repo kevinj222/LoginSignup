@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.exception;
+package com.Tracker.authenticationservice.exception;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

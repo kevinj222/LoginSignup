@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.config;
+package com.Tracker.authenticationservice.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,12 +34,14 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Bean
     @Override
-    public AuthenticationManager authenticationManagerBean() throws Exception {
+    public AuthenticationManager authenticationManagerBean() throws Exception
+    {
         return super.authenticationManagerBean();
     }
 
     @Override
-    protected void configure(HttpSecurity httpSecurity) throws Exception {
+    protected void configure(HttpSecurity httpSecurity) throws Exception
+    {
         httpSecurity.cors();
         httpSecurity.csrf().disable()
                 .authorizeRequests().antMatchers("/api/auth/authenticate", "/api/auth/registerNewUser").permitAll() // we don't want these endpoints to authenticate

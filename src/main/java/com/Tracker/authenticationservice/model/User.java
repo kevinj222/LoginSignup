@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.model;
+package com.Tracker.authenticationservice.model;
 
 
 import lombok.Data;

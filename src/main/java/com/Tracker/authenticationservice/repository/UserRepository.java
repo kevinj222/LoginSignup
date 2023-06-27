@@ -1,6 +1,6 @@
-package com.screenspot.authenticationservice.repository;
+package com.Tracker.authenticationservice.repository;
 
-import com.screenspot.authenticationservice.model.User;
+import com.Tracker.authenticationservice.model.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

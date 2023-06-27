@@ -1,6 +1,6 @@
-package com.screenspot.authenticationservice.dto;
+package com.Tracker.authenticationservice.dto;
 
-import com.screenspot.authenticationservice.validation.ValidPassword;
+import com.Tracker.authenticationservice.validation.ValidPassword;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

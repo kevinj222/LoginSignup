@@ -1,7 +1,7 @@
-package com.screenspot.authenticationservice.service;
+package com.Tracker.authenticationservice.service;
 
-import com.screenspot.authenticationservice.model.Role;
-import com.screenspot.authenticationservice.repository.RoleRepository;
+import com.Tracker.authenticationservice.model.Role;
+import com.Tracker.authenticationservice.repository.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

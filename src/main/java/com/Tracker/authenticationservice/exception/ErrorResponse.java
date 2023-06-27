@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.exception;
+package com.Tracker.authenticationservice.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

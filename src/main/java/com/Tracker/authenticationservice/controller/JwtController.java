@@ -1,8 +1,8 @@
-package com.screenspot.authenticationservice.controller;
+package com.Tracker.authenticationservice.controller;
 
-import com.screenspot.authenticationservice.model.JwtRequest;
-import com.screenspot.authenticationservice.model.JwtResponse;
-import com.screenspot.authenticationservice.service.JwtService;
+import com.Tracker.authenticationservice.model.JwtRequest;
+import com.Tracker.authenticationservice.model.JwtResponse;
+import com.Tracker.authenticationservice.service.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

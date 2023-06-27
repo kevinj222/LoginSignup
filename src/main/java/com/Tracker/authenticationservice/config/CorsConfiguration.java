@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.config;
+package com.Tracker.authenticationservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

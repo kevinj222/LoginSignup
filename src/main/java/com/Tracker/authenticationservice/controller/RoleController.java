@@ -1,7 +1,7 @@
-package com.screenspot.authenticationservice.controller;
+package com.Tracker.authenticationservice.controller;
 
-import com.screenspot.authenticationservice.model.Role;
-import com.screenspot.authenticationservice.service.RoleService;
+import com.Tracker.authenticationservice.model.Role;
+import com.Tracker.authenticationservice.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

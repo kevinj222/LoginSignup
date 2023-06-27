@@ -1,11 +1,11 @@
-package com.screenspot.authenticationservice.service;
+package com.Tracker.authenticationservice.service;
 
 
-import com.screenspot.authenticationservice.dto.UserRegistrationRequest;
-import com.screenspot.authenticationservice.model.Role;
-import com.screenspot.authenticationservice.model.User;
-import com.screenspot.authenticationservice.repository.RoleRepository;
-import com.screenspot.authenticationservice.repository.UserRepository;
+import com.Tracker.authenticationservice.dto.UserRegistrationRequest;
+import com.Tracker.authenticationservice.model.Role;
+import com.Tracker.authenticationservice.model.User;
+import com.Tracker.authenticationservice.repository.RoleRepository;
+import com.Tracker.authenticationservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

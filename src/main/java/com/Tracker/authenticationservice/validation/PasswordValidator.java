@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.validation;
+package com.Tracker.authenticationservice.validation;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

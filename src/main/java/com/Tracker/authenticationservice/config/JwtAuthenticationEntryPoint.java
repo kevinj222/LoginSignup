@@ -1,4 +1,4 @@
-package com.screenspot.authenticationservice.config;
+package com.Tracker.authenticationservice.config;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;

@@ -1,11 +1,11 @@
-package com.screenspot.authenticationservice.service;
+package com.Tracker.authenticationservice.service;
 
 
-import com.screenspot.authenticationservice.model.JwtRequest;
-import com.screenspot.authenticationservice.model.JwtResponse;
-import com.screenspot.authenticationservice.model.User;
-import com.screenspot.authenticationservice.repository.UserRepository;
-import com.screenspot.authenticationservice.util.JwtUtil;
+import com.Tracker.authenticationservice.model.JwtRequest;
+import com.Tracker.authenticationservice.model.JwtResponse;
+import com.Tracker.authenticationservice.model.User;
+import com.Tracker.authenticationservice.repository.UserRepository;
+import com.Tracker.authenticationservice.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -69,10 +69,13 @@ public class JwtService implements UserDetailsService {
         return authorities;
     }
 
-    private void authenticate(String username, String userPassword) throws Exception {
-        try {
+    private void authenticate(String username, String userPassword) throws Exception
+    {
+        try
+        {
             authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, userPassword));
-        } catch (DisabledException e) {
+        }
+        catch (DisabledException e) {
             throw new Exception("USER_DISABLED", e);
         } catch (BadCredentialsException e) {
             throw new Exception("INVALID_CREDENTIALS", e);

@@ -1,9 +1,9 @@
-package com.screenspot.authenticationservice.controller;
+package com.Tracker.authenticationservice.controller;
 
 
-import com.screenspot.authenticationservice.dto.UserRegistrationRequest;
-import com.screenspot.authenticationservice.model.User;
-import com.screenspot.authenticationservice.service.UserService;
+import com.Tracker.authenticationservice.dto.UserRegistrationRequest;
+import com.Tracker.authenticationservice.model.User;
+import com.Tracker.authenticationservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
